@@ -1,0 +1,70 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* background-image: url(./img/numbers_background.JPG);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center; */
+    background-image: linear-gradient(to right, aqua,  rgb(255, 0, 128), goldenrod);
+}
+
+.container{
+    /* border: 1px solid red; */
+    margin-top: 3rem;
+    text-align: center;
+    
+}
+
+.game{
+    /* border: 1px solid black; */
+    margin: 2rem auto;
+    color: white;
+}
+
+input{
+    padding: 15px;
+    background-color: white;
+    margin-right: 10px;
+    border: 1px solid lawngreen;
+    border-bottom-right-radius: 15px;
+    border-top-left-radius: 15px;
+    text-align: center;
+    font-size: 1.5rem;
+
+}
+
+button{
+    padding: 5px;
+    color: white;
+    background-color:sandybrown;
+}
+
+#congrat{
+    color: yellow;
+    margin-bottom: 1rem;
+}
+
+.attempt{
+    text-align: center;
+    color: aqua;
+}
+
+.image{
+    /* border: 1px solid black; */
+    margin: 2rem auto;
+}
+
+.image img{
+    width: 15%;
+}
+
+.top img{
+    width: 40%;
+    height: 12rem;
+    border-radius: 10%;
+}
+
+h1{
+    margin-bottom: 2rem;
+}
